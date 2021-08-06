@@ -1,0 +1,63 @@
+body{
+    margin:0;
+}
+.flex{
+    display: flex;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+h1{
+    color: yellow;
+}
+h2{
+    background-color: grey;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.banner{
+    background-image: url("../img/white\ bg.webp");
+    background-size: cover;
+    height: 400px;
+}
+.banner .flex{
+    flex-direction: column;
+    width: 15%;
+    margin-left: 80%;
+    padding-top: 2%;
+}
+.banner .flex a{
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.button{
+    text-align: center;
+}
+.item{
+    padding: 20px 20px;
+    box-shadow: 0px -3px 5px grey;
+}
+.item a{
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
