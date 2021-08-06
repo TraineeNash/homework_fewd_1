@@ -46,7 +46,9 @@ nav a{
 }
 .item{
     padding: 20px 20px;
-    box-shadow: 0px -3px 5px grey;
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: grey;
 }
 .item a{
     color: black;
@@ -62,6 +64,5 @@ nav a{
 footer{
     background-color: black;
     color: white;
-    margin-top: 20px;
     padding: 20px;
 }
